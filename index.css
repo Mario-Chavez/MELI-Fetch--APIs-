@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background: #fff159;
+  padding: 12px 0px;
+}
+.header-content {
+  max-width: 510px;
+  margin: 0 auto;
+}
+.search-form {
+  display: flex;
+}
+.search-input {
+  flex-grow: 1;
+  margin-right: 14px;
+}
+.search-button {
+  padding: 12px 35px;
+}
+
+.content {
+  max-width: 510px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.results {
+  font-weight: normal;
+  font-size: 16px;
+}
+.result-item {
+  border: solid 1px;
+  border-radius: 5px;
+  display: flex;
+  padding: 12px;
+  margin-top: 20px;
+}
+.result-item-img {
+  width: 300px;
+}
+.result-item-content {
+  flex-grow: 1;
+  padding: 0 13px;
+}
+.result-item-title {
+  margin: 0;
+}
+.result-item-condition {
+  margin-top: 4px;
+}
+.result-item-sell-count {
+  margin-top: 140px;
+}
+.result-item-price {
+  font-weight: bold;
+  font-size: 28px;
+  color: #5791a4;
+}
